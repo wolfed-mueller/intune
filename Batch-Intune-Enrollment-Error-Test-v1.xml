@@ -1,26 +1,29 @@
 ﻿<wap-provisioningdoc>
   <characteristic version="4.2" type="XmlMgr">
-    <parm name="ProcessingMode" value="3" />
-  </characteristic>
-  <characteristic version="10.1" type="UiMgr">
-    <parm name="NavigationBarUsage" value="2" />
-    <parm name="StatusBarUsage" value="2" />
+    <parm name="ProcessingMode" value="1" />
   </characteristic>
   <characteristic version="6.0" type="ConditionMgr">
     <parm name="DataType" value="2" />
     <characteristic type="IntegerDetails">
       <parm name="IntegerSourceType" value="2" />
       <parm name="IntegerSystemValue" value="1" />
-      <parm name="IntegerConditionTest" value="5" />
+      <parm name="IntegerConditionTest" value="2" />
       <parm name="IntegerConstantValue" value="0" />
     </characteristic>
     <parm name="ConditionMetAction" value="2" />
     <parm name="ConditionNotMetAction" value="0" />
     <parm name="ConditionRepeatCount" value="2" />
-    <parm name="ConditionRepeatInterval" value="10" />
+    <parm name="ConditionRepeatInterval" value="3" />
     <parm name="ConditionFailMessage" value="1" />
     <parm name="SuppressMessage" value="1" />
     <parm name="ConditionWaitMessage" value="Starting enrollment. Depending on the connection, this can take up to 20 minutes or more. Please follow the instructions. " />
+  </characteristic>
+  <characteristic version="4.2" type="XmlMgr">
+    <parm name="ProcessingMode" value="3" />
+  </characteristic>
+  <characteristic version="10.1" type="UiMgr">
+    <parm name="NavigationBarUsage" value="2" />
+    <parm name="StatusBarUsage" value="2" />
   </characteristic>
   <characteristic version="10.1" type="FileMgr">
     <parm name="FileAction" value="1" />
@@ -29,7 +32,7 @@
       <parm name="TargetPathAndFileName" value="/sdcard/AndroidDevicePolicy.apk" />
       <parm name="IfDuplicate" value="1" />
       <parm name="SourceAccessMethod" value="1" />
-      <parm name="SourceURI" value="&amp;#1272&amp;#127OAJOhrPwtusOvGTrEDPXB1kPHODxn+pSgr1K++hkO1UJ1WGl2vyMGSUbkKYjwVwt0qpBYLZYJ4GYbQ9GadBA0L/sGmn1QWUBAedmuI7BnlTVgMUOtCovZOWPaBdohhCM+P+QvMoUCpy+Rl4m335sqVrtkA8JVA2D9c8r5LulRNWTYqH9LeG9Wt5DbEiD34QiQKGZaM9vqptNDXuOgECvAbgtpI0MCm0jcRKYoKPrkjKoLQ8l6k+/1nUUnRRa61vveQAPIBivO7TCFXmJP8TcDcuyMw93RLO7iGgCCBR5lFDnBQARD45YFdUwZik4cvRmr6AX5p5mn01eoBmGVYk3xg==" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127B/CfwjoC0TvY2I9Js3E4ysiMOyZl/60+VxG69h6dNiHUIGVDPiTfQNOppx7ufchvWtmlp1vETbZhWwuN5TRJ9aUNdanBB0CZ/g18xkDEvyMyJYefZWiX1qApAPz65El2jsxRFRYrR5UVrT22mNd+GhX1jycwR5nxdvQb5yfVIuJC1gcTcTiSUXUOHyLYqoamA+wIbJo/hfMyykKGpFoXrGxmfz4IO29eBIMcr066ahkv+c1yO6e4EYd0JSpE883NF46NL5k57r/hJ9SqWwujGbd6UugRNUFXsj0OkK9VLWN48MyQoQZ2/rle/60wLw3e14nGdriZoogZJwMMCtCojA==" />
     </characteristic>
   </characteristic>
   <characteristic version="9.3" type="AppMgr">
@@ -53,7 +56,7 @@
     </characteristic>
     <parm name="ConditionMetAction" value="2" />
     <parm name="ConditionNotMetAction" value="0" />
-    <parm name="ConditionRepeatCount" value="120" />
+    <parm name="ConditionRepeatCount" value="2" />
     <parm name="ConditionRepeatInterval" value="60" />
     <parm name="ConditionFailMessage" value="3" />
     <parm name="SuppressMessage" value="1" />

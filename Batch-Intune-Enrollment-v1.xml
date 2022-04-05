@@ -1,0 +1,62 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="4.2" type="XmlMgr">
+    <parm name="ProcessingMode" value="2" />
+  </characteristic>
+  <characteristic version="10.1" type="UiMgr">
+    <parm name="NavigationBarUsage" value="2" />
+    <parm name="StatusBarUsage" value="2" />
+  </characteristic>
+  <characteristic version="6.0" type="ConditionMgr">
+    <parm name="DataType" value="2" />
+    <characteristic type="IntegerDetails">
+      <parm name="IntegerSourceType" value="2" />
+      <parm name="IntegerSystemValue" value="1" />
+      <parm name="IntegerConditionTest" value="5" />
+      <parm name="IntegerConstantValue" value="0" />
+    </characteristic>
+    <parm name="ConditionMetAction" value="2" />
+    <parm name="ConditionNotMetAction" value="0" />
+    <parm name="ConditionRepeatCount" value="2" />
+    <parm name="ConditionRepeatInterval" value="10" />
+    <parm name="ConditionFailMessage" value="1" />
+    <parm name="SuppressMessage" value="1" />
+    <parm name="ConditionWaitMessage" value="Starting enrollment. Depending on the connection, this can take up to 20 minutes or more. Please follow the instructions. " />
+  </characteristic>
+  <characteristic version="10.1" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/sdcard/AndroidDevicePolicy.apk" />
+      <parm name="IfDuplicate" value="1" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127EU1j9VGEuJWIlsWAUAMZk0WkQc/tt7o4loYu6kaDUFMlbir0kdeRd1+ep2TopoXjgRpz8fL63CC9UFl8t5vSxzEBluRtS+PWZt6rFmSioyUDJ39oL4BvkoqBaZ+D+YbBv8KoKE9Dl+Dh7utzxjIHDIk8pyxj3obirURGG/cww9qWQMq8KC9BOnmXHfjI+lSdcOVzosI46pLZCr96PIogRwywRfY4IyTcGlrbl9wMjJdYu5nHZlyd3fI58HSSe9k0ZBrpf7D/BpJlkDuLuhkE6Bcxd58ecq9Da6CFitUZN5CrHivuZCoyzRzwjgluJ24cgf6DeG8jaIc3qkkBYLA9aw==" />
+    </characteristic>
+  </characteristic>
+  <characteristic version="9.3" type="AppMgr">
+    <parm name="Action" value="Upgrade" />
+    <parm name="APK" value="/sdcard/AndroidDevicePolicy.apk" />
+  </characteristic>
+  <characteristic version="10.2" type="Intent">
+    <parm name="Action" value="EnrollDeviceOwner" />
+    <parm name="Package" value="com.google.android.apps.work.clouddpc" />
+    <parm name="Class" value="com.google.android.apps.work.clouddpc.receivers.CloudDeviceAdminReceiver" />
+    <parm name="DOJsonData" value="Json File" />
+    <parm name="DOJsonFileData" value="eyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiJhbmRyb2lkLmFwcC5leHRyYS5QUk9WSVNJT05JTkdfREVWSUNFX0FETUlOX0NPTVBPTkVOVF9OQU1FIjogImNvbS5nb29nbGUuYW5kcm9pZC5hcHBzLndvcmsuY2xvdWRkcGMvLnJlY2VpdmVycy5DbG91ZERldmljZUFkbWluUmVjZWl2ZXIiLA0KImFuZHJvaWQuYXBwLmV4dHJhLlBST1ZJU0lPTklOR19ERVZJQ0VfQURNSU5fU0lHTkFUVVJFX0NIRUNLU1VNIjogIkk1WXZTME81aFhZNDZtYjAxQmxSanE0b0pKR3Mya3VVY0h2VmtBUEVYbGciLA0KImFuZHJvaWQuYXBwLmV4dHJhLlBST1ZJU0lPTklOR19ERVZJQ0VfQURNSU5fUEFDS0FHRV9ET1dOTE9BRF9MT0NBVElPTiI6ICJodHRwczovL3BsYXkuZ29vZ2xlLmNvbS9tYW5hZ2VkL2Rvd25sb2FkTWFuYWdpbmdBcHA/aWRlbnRpZmllcj1zZXR1cCIsDQoiYW5kcm9pZC5hcHAuZXh0cmEuUFJPVklTSU9OSU5HX0xFQVZFX0FMTF9TWVNURU1fQVBQU19FTkFCTEVEIjogdHJ1ZSwNCiJhbmRyb2lkLmFwcC5leHRyYS5QUk9WSVNJT05JTkdfQURNSU5fRVhUUkFTX0JVTkRMRSI6IHsgDQoiY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMud29yay5jbG91ZGRwYy5FWFRSQV9FTlJPTExNRU5UX1RPS0VOIjogIiIgfQ0KfQ==" />
+  </characteristic>
+  <characteristic version="6.0" type="ConditionMgr">
+    <parm name="DataType" value="2" />
+    <characteristic type="IntegerDetails">
+      <parm name="IntegerSourceType" value="2" />
+      <parm name="IntegerSystemValue" value="1" />
+      <parm name="IntegerConditionTest" value="2" />
+      <parm name="IntegerConstantValue" value="0" />
+    </characteristic>
+    <parm name="ConditionMetAction" value="2" />
+    <parm name="ConditionNotMetAction" value="0" />
+    <parm name="ConditionRepeatCount" value="120" />
+    <parm name="ConditionRepeatInterval" value="60" />
+    <parm name="ConditionFailMessage" value="3" />
+    <parm name="SuppressMessage" value="1" />
+    <parm name="ConditionWaitMessage" value="Please wait. Enrollment in progress..." />
+  </characteristic>
+</wap-provisioningdoc>

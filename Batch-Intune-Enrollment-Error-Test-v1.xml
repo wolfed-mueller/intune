@@ -13,7 +13,7 @@
     <parm name="ConditionMetAction" value="2" />
     <parm name="ConditionNotMetAction" value="0" />
     <parm name="ConditionRepeatCount" value="2" />
-    <parm name="ConditionRepeatInterval" value="3" />
+    <parm name="ConditionRepeatInterval" value="10" />
     <parm name="ConditionFailMessage" value="1" />
     <parm name="SuppressMessage" value="1" />
     <parm name="ConditionWaitMessage" value="Starting enrollment. Depending on the connection, this can take up to 20 minutes or more. Please follow the instructions. " />
@@ -32,7 +32,7 @@
       <parm name="TargetPathAndFileName" value="/sdcard/AndroidDevicePolicy.apk" />
       <parm name="IfDuplicate" value="1" />
       <parm name="SourceAccessMethod" value="1" />
-      <parm name="SourceURI" value="&amp;#1272&amp;#127ETxG3jxPKXkeV28mIVfgW7hzgB2G5//j2/JjxphhbrrkO7swB/H1LQqXX3MXqFyLhZmBAJBdfSdsSghPyYjMbuhDThBVF9idjTx7VqeLGTEOTNML8tnkuRE11l9CkZtQAWVAL1CmDHPR99zxWMimco4NDWXusy3MU1qqu8vgWFgTQhA+jpPls+RWAudDxUNFTm9flZHG7jf6PBiEK+wJ2Yy5QBqwbIblRWXM3INjDOOIHwrzVepOJkbHq84lqwMmxnwX5Set4I7oVW/QGCji3SMcTpvOgW+46/ZrqudS52GtyVJd+jZFK1oDZ8JJDyBWnDwVI1BQBGp0T+enNw0bwg==" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127DP502lL4M7tHeAQ7RLhkjxsxZ32XJyPd7YLTVACEvtTMaZ1ZeUVteqdWEpkrF/+iC1skOVVRE6hDiJW2YVoAEAG4uELDGE+CrSfXNf7ge8T/UJyMbzHIkfYccKfU5+73ztkASMBQOTE27fvadP225KnfTUgcsIiFrB738KwXdd8hCHUeRiIRZPlS7FWtNvBXbgtD07RkbP3/mPPoMBejZVSaf9ZoBPijh97/HEw866mfjuvQQlDEqrm/51OpLVoKUHpJgJbEN7M/10aznnBsKBctMFpfgPBHub4Wq3/ykdqyRUUgIvtEqMcSxKy7Hx6Wp6Y6Jsd9oE6Jwp2ypep2Vg==" />
     </characteristic>
   </characteristic>
   <characteristic version="9.3" type="AppMgr">
@@ -56,7 +56,7 @@
     </characteristic>
     <parm name="ConditionMetAction" value="2" />
     <parm name="ConditionNotMetAction" value="0" />
-    <parm name="ConditionRepeatCount" value="8" />
+    <parm name="ConditionRepeatCount" value="120" />
     <parm name="ConditionRepeatInterval" value="60" />
     <parm name="ConditionFailMessage" value="3" />
     <parm name="SuppressMessage" value="1" />

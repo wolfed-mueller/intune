@@ -56,7 +56,7 @@
     </characteristic>
     <parm name="ConditionMetAction" value="2" />
     <parm name="ConditionNotMetAction" value="0" />
-    <parm name="ConditionRepeatCount" value="2" />
+    <parm name="ConditionRepeatCount" value="8" />
     <parm name="ConditionRepeatInterval" value="60" />
     <parm name="ConditionFailMessage" value="3" />
     <parm name="SuppressMessage" value="1" />
@@ -65,8 +65,15 @@
   <characteristic version="4.2" type="XmlMgr">
     <parm name="ProcessingMode" value="4" />
   </characteristic>
-  <characteristic version="10.1" type="UiMgr">
-    <parm name="NavigationBarUsage" value="1" />
-    <parm name="StatusBarUsage" value="1" />
+  <characteristic version="6.0" type="ConditionMgr">
+    <parm name="DataType" value="2" />
+    <characteristic type="IntegerDetails">
+      <parm name="IntegerSourceType" value="2" />
+      <parm name="IntegerSystemValue" value="1" />
+      <parm name="IntegerConditionTest" value="1" />
+      <parm name="IntegerConstantValue" value="0" />
+    </characteristic>
+    <parm name="ConditionMetAction" value="0" />
+    <parm name="ConditionNotMetAction" value="0" />
   </characteristic>
 </wap-provisioningdoc>

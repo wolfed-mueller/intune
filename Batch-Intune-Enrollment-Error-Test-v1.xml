@@ -32,7 +32,7 @@
       <parm name="TargetPathAndFileName" value="/sdcard/AndroidDevicePolicy.apk" />
       <parm name="IfDuplicate" value="1" />
       <parm name="SourceAccessMethod" value="1" />
-      <parm name="SourceURI" value="&amp;#1272&amp;#127B/CfwjoC0TvY2I9Js3E4ysiMOyZl/60+VxG69h6dNiHUIGVDPiTfQNOppx7ufchvWtmlp1vETbZhWwuN5TRJ9aUNdanBB0CZ/g18xkDEvyMyJYefZWiX1qApAPz65El2jsxRFRYrR5UVrT22mNd+GhX1jycwR5nxdvQb5yfVIuJC1gcTcTiSUXUOHyLYqoamA+wIbJo/hfMyykKGpFoXrGxmfz4IO29eBIMcr066ahkv+c1yO6e4EYd0JSpE883NF46NL5k57r/hJ9SqWwujGbd6UugRNUFXsj0OkK9VLWN48MyQoQZ2/rle/60wLw3e14nGdriZoogZJwMMCtCojA==" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127nZOaAllraHGLKXa68Vn8RbkrC67T0+5sgxmdmJiA7BlvaLsjStco5pecnqWhvSuB2hUqoo9soQRcuneqx9xH09DILEhzKvqPs0w2207LSP5ybc16XCG9LLD6HOJve0mJ893k5L9RWQ00JMUfu/jue6Q09MRlbsb3CBoCADWbV4Y5ew7Yp8d7Vvm92H0at+NTt/vMk70imIftDRRdwqNQIWh63LFySoQMH+cMvupDUghaoOPPoZ+JkvM6Gzktl2UYbBdRbCCtvFtozFWRD8p+z2FFi3AnkgAq66dvihSfMgCK5f/WUAl9yBC/qEkB0cJZAqeMNdpT12T/oL0K6amfrA==" />
     </characteristic>
   </characteristic>
   <characteristic version="9.3" type="AppMgr">

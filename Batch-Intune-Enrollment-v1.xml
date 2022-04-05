@@ -1,7 +1,4 @@
 ﻿<wap-provisioningdoc>
-  <characteristic version="4.2" type="XmlMgr">
-    <parm name="ProcessingMode" value="2" />
-  </characteristic>
   <characteristic version="10.1" type="UiMgr">
     <parm name="NavigationBarUsage" value="2" />
     <parm name="StatusBarUsage" value="2" />
@@ -29,7 +26,7 @@
       <parm name="TargetPathAndFileName" value="/sdcard/AndroidDevicePolicy.apk" />
       <parm name="IfDuplicate" value="1" />
       <parm name="SourceAccessMethod" value="1" />
-      <parm name="SourceURI" value="&amp;#1272&amp;#127EU1j9VGEuJWIlsWAUAMZk0WkQc/tt7o4loYu6kaDUFMlbir0kdeRd1+ep2TopoXjgRpz8fL63CC9UFl8t5vSxzEBluRtS+PWZt6rFmSioyUDJ39oL4BvkoqBaZ+D+YbBv8KoKE9Dl+Dh7utzxjIHDIk8pyxj3obirURGG/cww9qWQMq8KC9BOnmXHfjI+lSdcOVzosI46pLZCr96PIogRwywRfY4IyTcGlrbl9wMjJdYu5nHZlyd3fI58HSSe9k0ZBrpf7D/BpJlkDuLuhkE6Bcxd58ecq9Da6CFitUZN5CrHivuZCoyzRzwjgluJ24cgf6DeG8jaIc3qkkBYLA9aw==" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127WRvlnpzDlEBJd9TKmfCEWQyeBNGQm3WEvgP6BX4Xx6bYzsf8kZGLTwoCFUpwEa6/cdzqmQchLAaNsG/3Qlmuwh3l3k3N02+qjmRjOVVQEr4eXZL+cb9XsEvIKhfwkbFD5JN5GKPxFl8M+bTufIGE/v+2WQTV6JbHfmObR1ACNEH6RyBMppA8fFP55+up7KQ28kpdXM6VAg7dsCpKHg463Vtzw4X7fhHgSNKhSzPX6I4k0g7TS9ToEqWQvMjy98oYO01HJzWuaE6LSMlDl8YbsGUFzc1L9tWGS62TpU+tpnGQAC4xpzT5UqaHlGj7ui3lD+PtyY613kfuVBisN2yoig==" />
     </characteristic>
   </characteristic>
   <characteristic version="9.3" type="AppMgr">
